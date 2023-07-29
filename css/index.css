@@ -1,0 +1,91 @@
+:root{
+  --azul_escuro:#0E2954;
+  --azul_medio:#1F6E8C;
+  --azul_esverdeado:#2E8A99;
+  --azul_cinza:#84A7A1;
+  --white: #ffffff;
+  --light:#F6F4EB;
+  --LightSkyBlue: #87CEFA;
+}
+
+.sliderPhotos{
+    width: 100%;
+    
+}
+
+.photo{
+    width: 100%;
+    height: 50%;
+}
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+
+.titleIndex{
+  text-align: center;
+  font-size: 5rem;
+}
+
+.paragraphIndex{
+  text-align: center;
+  color: var(--light);
+  font-size: 1.5rem;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+
+}
+
+.card {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.subCard {
+  text-align: center;
+  padding: 2rem;
+}
+
+.photoSobre {
+  width: 25rem;
+}
+
+.paragraphSobre {
+  color: var(--light);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.cardMVV {
+  gap: 1.5rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.subCardMVV{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.titleCardMVV{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.paragraphMVV, li{
+  color: var(--light);
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <script defer src="./js/buscar_cep.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="imgLogo">
+            <img class="imgLogo" src="./img/logo1.svg" alt="">
+        </div>
+        <div class="sub-menu">
+            <a href="./index.html">Home</a>
+            <a href="./index.html#sobre">Sobre</a>
+
+            <div class="sub-menu-nav">
+                <button class="nav-btn">Cadastro</button>
+                <div class="sub-menu-alt">
+                    <a href="./cadastro_idoso.html">Idoso</a>
+                    <a href="./cadastro_voluntario.html">Voluntários</a>
+                </div>
+            </div>
+
+            <a href="./contato.html">Contato</a>
+    </header>
+    <main class="main">
+        <h1 class="titleCadastro">Cadastro de Pessoa Voluntária</h1>
+        <form>
+            <div class="container">
+                <div>
+                    <div class="inputbox">
+                        <label for="nome">Nome: &nbsp</label>
+                        <input type="text" placeholder="Digite o nome do idoso" id="nome" required>
+                    </div>
+                    <br>
+                    <div class="inputbox">
+                        <label for="email">E-mail: &nbsp</label>
+                        <input type="email" placeholder="Digite o e-mail do responsavél" id="email" required>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="inputbox">
+                        <label for="cpf">CPF: &nbsp</label>
+                        <input type="number" placeholder="Digite o CPF do idoso" id="cpf" required>
+                    </div>
+                    <div class="styled-select inputbox">
+                        <label for="sexo">Sexo: &nbsp</label>
+                        <select name="" id="sexo">
+                            <option value="" disabled selected>Selecione o sexo</option>
+                            <option value="femi">Feminino</option>
+                            <option value="masc">Masculino</option>
+                            <option value="mt">Outro</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="inputbox">
+                        <label for="telefone">Telefone: &nbsp</label>
+                        <input type="phone" placeholder="Digite o telefone" id="telefone" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="nascimento">Data de Nascimento: &nbsp</label>
+                        <input type="date" placeholder="Digite a data de nascimento" id="nascimento" required>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="inputbox">
+                        <label for="cep">CEP: &nbsp</label>
+                        <input type="text" id="cep" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="endereco">Endereço: &nbsp</label>
+                        <input type="text" id="endereco" disabled>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="inputbox">
+                        <label for="numero">Número: &nbsp</label>
+                        <input type="number" id="numero" required>
+                    </div>
+                    <div class="inputbox">
+                        <label for="bairro">Bairro: &nbsp</label>
+                        <input type="text" id="bairro" disabled>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="inputbox">
+                        <label for="cidade">Cidade: &nbsp</label>
+                        <input type="text" id="cidade" disabled>
+                    </div>
+                    <div class="inputbox">
+                        <label for="estado">Estado: &nbsp</label>
+                        <input type="text" id="estado" disabled>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <div class="inputbox">
+                        <label for="atividade">Antecendente Criminal*: &nbsp</label>
+                        <input type="file" id="Antecendente" required>
+                    </div>
+                    <br>
+                    <div>
+                        <span>* Para participar do projetos de voluntariado envolvendo idosos com Vóluntários, os candidatos interessados devem fornecer um relatório de verificação de antecedentes criminais à organização, antes do início do projeto.</span>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="divButton">
+                <button>Salvar</button>
+            </div>
+        </form>
+
+    </main>
+    <footer class="footer">
+        <div>
+            <img class="imgLogo" src="./img/logo1.svg" alt="">
+        </div>
+        <div>
+            <span class="paragraphFooter">
+                Feito por Kelly Oliveira.
+            </span>
+        </div>
+
+        <div>
+            <a target="_blank" href="./contato.html">
+                <img class="logoFooter" src="./img/gmail-logo.svg" alt="">
+            </a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511958934859">
+                <img class="logoFooter" src="./img/whatsapp.svg" alt="">
+            </a>
+            <a target="_blank" href="http://instagram.com/kelly_amenduuim">
+                <img class="logoFooter" src="./img/instagram-old.svg" alt="">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/kelly-rodrigues-de-oliveira-21178132/">
+                <img class="logoFooter" src="./img/linkedin.svg" alt="">
+            </a>
+            <a target="_blank" href="https://t.me/kelly_amenduuim">
+                <img class="logoFooter" src="./img/telegram-app.svg" alt="">
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
