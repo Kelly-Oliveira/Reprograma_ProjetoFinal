@@ -39,5 +39,5 @@ const pesquisarCep = async() => {
      
 }
 
-document.getElementById('nome')
+document.getElementById('cep')
         .addEventListener('focusout',pesquisarCep);
